@@ -4,36 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <title>old Spotify</title>
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="Utility.css">
 </head>
-
 <body>
     <div class="container flex bg-black">
         <div class="left">
             <div class="close">
-                <img width="30px" class="invert" src="close.svg" alt="">
+                <img width="30px" class="invert" src="assets/img/close.svg" alt="">
             </div>
             <div class="home m1 bg-grey rounded p1">
                 <div class="logo">
-                    <img width="110px" class="invert" src="logo.svg">
+                    <img width="110px" class="invert" src="assets/img/logo.svg">
                 </div>
                 <ul>
-                    <li><img class="invert" src="home.svg" alt="Home">Home</li>
-                    <li><img class="invert" src="search.svg" alt="Home">Search</li>
+                    <li><img class="invert" src="assets/img/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="assets/img/search.svg" alt="Home">Search</li>
                 </ul>
             </div>
             <div class="library m1 bg-grey rounded p1">
                 <div class="heading">
-                    <img class="invert" src="Playlist.svg">
+                    <img class="invert" src="assets/img/Playlist.svg">
                     <h2> library</h2>
                 </div>
                 <div class="songList">
                     <ul>
                     </ul>
                 </div>
-               
+
             </div>
             <div class="footer">
                 <div><a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span></a></div>
@@ -56,7 +54,7 @@
             <div class="header">
                 <div class="nav">
                     <div class="hamburgercont flex">
-                        <img class="invert hamburger" src="hamburger.svg" alt="">
+                        <img class="invert hamburger" src="assets/img/hamburger.svg" alt="">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             color="#ffffff" fill="none">
                             <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
@@ -70,14 +68,16 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <button class="signupbtn">Sign up</button>
-                    <button class="loginbtn">Log in</button>
+                    <a class="signupbtn" style="text-decoration: none;" href="signup/sign-up.html">Sign up</a>
+                    <a class="loginbtn" style="text-decoration: none;" href="login/login.html">Login</a>
+
+
                 </div>
             </div>
             <div class="spotifyPlaylists">
                 <h1>Spotify Playlists</h1>
                 <div class="cardContainer">
-                    <div class="card">
+                     <div class="card">
                         <div class="play">
                             <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
                                 class="Svg-sc-ytk21e-0 bneLcE">
@@ -86,10 +86,10 @@
                                 </path>
                             </svg>
                         </div>
-                        <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/07iEy1AecUPVzfC2J2gCHR/en-GB"
+                        <img src="Assets/img/cover1.jpg"
                             alt="">
-                        <h2>Ikka Radio</h2>
-                        <p>With Karma, Raga, Muhfaad and more </p>
+                        <h2>Karan Aujla</h2>
+                        <p>Karan Aujla for you. </p>
                     </div>
                     <div class="card">
                         <div class="play">
@@ -100,24 +100,11 @@
                                 </path>
                             </svg>
                         </div>
-                        <img src="https://i.scdn.co/image/ab67706f00000002a6a35d85da2b230f63a0005a" alt="">
-                        <h2>Dinner With Friends</h2>
-                        <p>The perfect soundtrack over dinner</p>
-                    </div>
-                    <div class="card">
-                        <div class="play">
-                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
-                                class="Svg-sc-ytk21e-0 bneLcE">
-                                <path
-                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
-                                </path>
-                            </svg>
-                        </div>
-                        <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/07iEy1AecUPVzfC2J2gCHR/en-GB"
+                        <img src="Assets/img/cover2.jpg"
                             alt="">
-                        <h2>Ikka Radio</h2>
-                        <p>With Karma, Raga, Muhfaad and more </p>
-                    </div>
+                        <h2>Just Chill</h2>
+                        <p>Yes,just chill. </p>
+                    </div> 
                     <div class="card">
                         <div class="play">
                             <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
@@ -127,11 +114,11 @@
                                 </path>
                             </svg>
                         </div>
-                        <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/07iEy1AecUPVzfC2J2gCHR/en-GB"
+                        <img src="Assets/img/cover3.jpg"
                             alt="">
-                        <h2>Ikka Radio</h2>
-                        <p>With Karma, Raga, Muhfaad and more </p>
-                    </div>
+                        <h2>Love</h2>
+                        <p>Love is in the air. </p>
+                    </div> 
                     <div class="card">
                         <div class="play">
                             <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
@@ -141,33 +128,35 @@
                                 </path>
                             </svg>
                         </div>
-                        <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/07iEy1AecUPVzfC2J2gCHR/en-GB"
+                        <img src="Assets/img/cover4.jpg"
                             alt="">
-                        <h2>Ikka Radio</h2>
-                        <p>With Karma, Raga, Muhfaad and more </p>
-                    </div>
+                        <h2>Go Funky</h2>
+                        <p>Let's go funky.</p>
+                    </div> 
                 </div>
                 <div class="playbar">
                     <div class="seekbar">
                         <div class="circle">
                         </div>
                     </div>
-                    <div class="songinfo"></div>
-                    <div class="songbuttons">
-                        <img width="30px" id="previous" src="prevsong.svg" alt="">
-                        <img width="30px" id="play" src="play.svg" alt="">
-                        <img width="30px" id="next" src="nextsong.svg" alt="">
-                    </div>
-                   
-                    <div class="songtime">
-                     </div>
-                      <div class="volume">
-                        <img width="30px" src="volume.svg" alt="">
-                        <div class="range">
-                            <input type="range" name="volume" id="">
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <img width="30px" id="previous" src="assets/img/prevsong.svg" alt="">
+                            <img width="30px" id="play" src="assets/img/play.svg" alt="">
+                            <img width="30px" id="next" src="assets/img/nextsong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime">
+                            </div>
+                            <div class="volume">
+                                <img width="30px" src="assets/img/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>

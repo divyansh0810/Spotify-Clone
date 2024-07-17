@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    background-color: #1e1e1e;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.login-box {
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+.social-buttons {
+    margin-bottom: 20px;
+}
+
+.social-buttons button {
+    width: 95%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.google-button img {
+    margin-right: 29px;
+}
+.facebook-button img {
+    margin-right: 20px;
+}
+.apple-button img {
+    margin-right: 45px;
+}
+.input-group {
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.emaillabel {
+    margin-right: 190px;
+}
+ .passwordlabel{
+    margin-right: 240px;
+ }
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    background-color: #121212;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.show-password {
+    position: relative;
+    left: 130px;
+    bottom:33px;
+    background: none;
+    border: none;
+    color: #1db954;
+    cursor: pointer;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.forgot-password {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.forgot-password:hover {
+    cursor: pointer;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.signup-link a:hover {
+    cursor: pointer;
+}
+.invert{
+    filter: invert(1);
+
+}
